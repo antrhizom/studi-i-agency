@@ -187,9 +187,9 @@ export default function LearnerDashboard() {
       <header className="bg-white border-b">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div>
-            <h1 className="text-xl font-bold text-gray-900">stud-i-agency-chek</h1>
+            <h1 className="text-xl font-bold text-gray-900">stud-i-agency-check</h1>
             <p className="text-sm text-gray-600">
-              {userData?.name || userData?.displayName || 'Lernende:r'} · ABU Fahrzeugberufe
+              {userData?.name || userData?.displayName || 'Lernende:r'} · ABU zirkulär kompetent
             </p>
           </div>
           <button

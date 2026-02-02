@@ -195,7 +195,7 @@ export default function TeacherDashboard() {
   };
 
   const copyInstructions = async (name, code) => {
-    const text = `Hallo ${name}!\n\nDu bist jetzt registriert für stud-i-agency-chek.\n\nDein Code: ${code}\n\nWICHTIG: Dieser Code ist dein dauerhaftes Passwort.\n\nSo geht\'s:\n1. App öffnen (Vercel-URL)\n2. "Als Lernende:r einloggen" klicken\n3. Code eingeben: ${code}\n4. Fertig!\n`;
+    const text = `Hallo ${name}!\n\nDu bist jetzt registriert für stud-i-agency-check (ABU zirkulär kompetent).\n\nDein Code: ${code}\n\nWICHTIG: Dieser Code ist dein dauerhaftes Passwort.\n\nSo geht\'s:\n1. App öffnen (Vercel-URL)\n2. "Als Lernende:r einloggen" klicken\n3. Code eingeben: ${code}\n4. Fertig!\n`;
     await navigator.clipboard.writeText(text);
     alert('Anleitung kopiert!');
   };
@@ -231,8 +231,8 @@ export default function TeacherDashboard() {
       <header className="bg-white border-b">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div>
-            <h1 className="text-xl font-bold text-gray-900">stud-i-agency-chek</h1>
-            <p className="text-sm text-gray-600">Lehrperson ABU · {userData?.displayName || userData?.name || ''}</p>
+            <h1 className="text-xl font-bold text-gray-900">stud-i-agency-check</h1>
+            <p className="text-sm text-gray-600">ABU zirkulär kompetent · {userData?.displayName || userData?.name || ''}</p>
           </div>
           <button
             onClick={signOut}

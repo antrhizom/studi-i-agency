@@ -82,7 +82,7 @@ const Login = () => {
             />
             <h1 className="text-3xl font-bold text-gray-900 mb-2">stud-i-agency-check</h1>
             <p className="text-gray-600 text-sm">
-              Kompetenz-Checkliste ABU für die EBA-Ausbildung im Kanton Zürich
+              ABU zirkulär kompetent · EBA Kanton Zürich
             </p>
           </div>
 

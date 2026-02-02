@@ -1,5 +1,5 @@
-// stud-i-agency-chek – ABU Fahrzeugberufe (EBA)
-// Zirkulär, themenbasiert, mit Üben innerhalb (Pflichtprogramm) und ausserhalb von Themen.
+// stud-i-agency-check – ABU zirkulär kompetent (EBA Kanton Zürich)
+// Berufsunabhängig, zirkulär, themenbasiert, mit Üben innerhalb (Pflichtprogramm) und ausserhalb von Themen.
 
 export const changeTags = [
   { id: 'digitality', label: 'Digitalität' },
