@@ -80,7 +80,7 @@ const Login = () => {
               alt="stud-agency-check Logo"
               className="w-32 h-32 mx-auto mb-4 rounded-lg"
             />
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">stud-agency-check</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">stud-i-agency-check</h1>
             <p className="text-gray-600 text-sm">
               Kompetenz-Checkliste ABU für die EBA-Ausbildung im Kanton Zürich
             </p>
@@ -202,7 +202,7 @@ const Login = () => {
 
         {/* Footer */}
         <p className="text-center text-gray-500 text-sm mt-8">
-          © 2025 stud-agency-check · EBA Kanton Zürich
+          © 2025 stud-i-agency-check · EBA Kanton Zürich
         </p>
       </div>
     </div>
